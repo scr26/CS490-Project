@@ -1,0 +1,236 @@
+form.form-control me-2{
+    float:right;
+    color :red;
+}
+
+
+.row img{
+    width:100%;
+    margin: auto;
+    display: block;
+    
+}
+
+div img.img-fluid{
+    width:100%;
+    
+}
+.container-fluid{
+    padding:0px;
+}
+
+.section2{
+
+    padding: 2rem;
+    margin:auto;
+
+}
+
+.section3{
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+.loginWrapper {
+   margin:auto;
+    margin-top:20px;
+   
+}
+button.meowbtn{
+    margin:auto;
+    background-color: pink;
+    display:block;
+    padding-left: 15%;
+    padding-right:13%;
+    border-radius: 5px;
+    color:saddlebrown;
+    font-family:fantasy;
+     cursor:url('assets/paw.png'),auto;
+}
+button.login{
+    padding-left:20%;
+    padding-right:20%;
+}
+h5.modal-title{
+    margin: auto;
+    margin-left:3%;
+    font-weight: 800;
+}
+.modalFormWrapper{
+    margin:auto;
+    display:block;
+}
+.imgCenter{
+    display:block;
+    margin:auto;
+    
+}
+.btnCenter{
+    margin-top: 15px;
+    margin-bottom:20px;
+    display: block;
+    margin: auto;
+    color:hotpink;
+    background-color: cornsilk;
+    width: 70%
+}
+.fa{
+    margin:5px;
+}
+
+.footerImg{
+    padding:10px;
+}
+
+.fa-facebook-square{
+    color:cornflowerblue;
+}
+.fa-google-plus-square{
+    color:darkred;
+}
+.fa-instagram{
+    color:deeppink;
+}
+.socialWrapper{
+    margin:auto;
+    display: block;
+}
+
+/*changes for landingpage*/
+.section1{
+    padding:30px;
+    margin:auto;
+    margin-bottom: 30px;
+
+    color:deeppink;
+    display: block;
+    width:100%;
+}
+.row img{
+    width:100%;
+    display:block;
+    margin: auto;
+    padding:1%;
+    max-width: 500px;
+}
+
+.profile{
+    color:saddlebrown;
+    width:100%;
+    display:block;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom: 30px;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+    
+}
+
+    
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+  }
+  
+  
+  /*
+   * Global add-ons
+   */
+  
+  .sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /*
+   * Top navigation
+   * Hide default border to remove 1px line.
+   */
+  .navbar-fixed-top {
+    border: 0;
+  }
+  
+  /*
+   * Sidebar
+   */
+  
+  /* Hide for mobile, show later */
+  .sidebar {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    .sidebar {
+      position: fixed;
+      top: 51px;
+      bottom: 0;
+      left: 0;
+      z-index: 1000;
+      display: block;
+      padding: 20px;
+      overflow-x: hidden;
+      overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+      background-color: #f5f5f5;
+      border-right: 1px solid #eee;
+    }
+  }
+  
+  /* Sidebar navigation */
+  .nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+  .nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .nav-sidebar > .active > a,
+  .nav-sidebar > .active > a:hover,
+  .nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+  }
+  
+  
+  /*
+   * Main content
+   */
+  
+  .main {
+    padding: 20px;
+  }
+  @media (min-width: 768px) {
+    .main {
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+  }
+  .main .page-header {
+    margin-top: 0;
+  }
+  
+  
+  /*
+   * Placeholder dashboard ideas
+   */
+  
+  .placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .placeholders h4 {
+    margin-bottom: 0;
+  }
+  .placeholder {
+    margin-bottom: 20px;
+  }
+  .placeholder img {
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
